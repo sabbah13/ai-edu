@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple React Component Demo</title>
+    <link rel="stylesheet" href="SimpleCard.css">
+    
+    <!-- React CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+    <!-- Babel for JSX transformation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState } = React;
+
+        // Card component that demonstrates basic React concepts
+        function Card({ title, children, className = '' }) {
+            return (
+                <div className={`card ${className}`}>
+                    <div className="card-header">
+                        <h2>{title}</h2>
+                    </div>
+                    <div className="card-content">
+                        {children}
+                    </div>
+                </div>
+            );
+        }
+
+        // Avatar component demonstrating props usage
+        function Avatar({ person, size = 50 }) {
+            return (
+                <img
+                    className="avatar"
+                    src={person.imageUrl}
+                    alt={person.name}
+                    width={size}
+                    height={size}
+                />
+            );
+        }
+
+        // Profile component demonstrating component composition
+        function Profile({ person }) {
+            return (
+                <div className="profile">
+                    <Avatar person={person} size={80} />
+                    <div className="profile-info">
+                        <h3>{person.name}</h3>
+                        <p>{person.role}</p>
+                        <p>{person.bio}</p>
+                    </div>
+                </div>
+            );
+        }
+
+        // Interactive component demonstrating state
+        function Counter() {
+            const [count, setCount] = useState(0);
+            
+            return (
+                <div style={{ textAlign: 'center' }}>
+                    <p>You clicked {count} times</p>
+                    <button 
+                        onClick={() => setCount(count + 1)}
+                        style={{
+                            padding: '10px 20px',
+                            fontSize: '16px',
+                            backgroundColor: '#4f46e5',
+                            color: 'white',
+                            border: 'none',
+                            borderRadius: '6px',
+                            cursor: 'pointer'
+                        }}
+                    >
+                        Click me
+                    </button>
+                </div>
+            );
+        }
+
+        // Main component that demonstrates nesting and reusability
+        function SimpleCard() {
+            const samplePerson = {
+                name: 'Jane Doe',
+                role: 'Software Engineer',
+                bio: 'Passionate about creating beautiful and functional user interfaces.',
+                imageUrl: 'https://via.placeholder.com/150/0066cc/ffffff?text=JD'
+            };
+
+            return (
+                <div className="app">
+                    <Card title="Profile Card" className="profile-card">
+                        <Profile person={samplePerson} />
+                    </Card>
+                    
+                    <Card title="Welcome Message">
+                        <p>Welcome to our React component demo!</p>
+                        <p>This card demonstrates:</p>
+                        <ul>
+                            <li>Functional components</li>
+                            <li>Props and children</li>
+                            <li>Component composition</li>
+                            <li>Conditional styling</li>
+                        </ul>
+                    </Card>
+                    
+                    <Card title="Interactive Counter" className="stats-card">
+                        <Counter />
+                        <p style={{ marginTop: '16px', fontSize: '14px', color: '#6b7280' }}>
+                            This demonstrates React state management with the useState hook.
+                        </p>
+                    </Card>
+                    
+                    <Card title="React Concepts Demonstrated">
+                        <div className="stats">
+                            <div className="stat-item">
+                                <strong>Components:</strong> Card, Avatar, Profile, Counter
+                            </div>
+                            <div className="stat-item">
+                                <strong>Props Used:</strong> title, children, className, person, size
+                            </div>
+                            <div className="stat-item">
+                                <strong>React Features:</strong> JSX, Props, State, Event Handling
+                            </div>
+                            <div className="stat-item">
+                                <strong>Hooks Used:</strong> useState
+                            </div>
+                        </div>
+                    </Card>
+                </div>
+            );
+        }
+
+        // Render the component
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<SimpleCard />);
+    </script>
+</body>
+</html> 
