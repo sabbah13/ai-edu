@@ -1,0 +1,49 @@
+{"name": "OpenAI", "category": "AI Model Provider", "description": "GPT-4o, o3, o4-mini, Realtime API, Whisper", "website": "https://openai.com/"}
+{"name": "Anthropic", "category": "AI Model Provider", "description": "Claude Opus 4, Sonnet 4, Claude Code, MCP Protocol", "website": "https://www.anthropic.com/"}
+{"name": "Google", "category": "Tech Giant", "description": "Gemini 2.5 Pro, Gemini Live, Gemini CLI", "website": "https://ai.google.dev/"}
+{"name": "xAI", "category": "AI Model Provider", "description": "Grok 4, Grok 4 Heavy", "website": "https://x.ai/"}
+{"name": "Meta", "category": "Tech Giant", "description": "Llama 3.1, Llama API", "website": "https://ai.meta.com/"}
+{"name": "Alibaba", "category": "Tech Giant", "description": "Qwen2.5, Qwen2.5-VL, Qwen2.5-Coder", "website": "https://www.alibabacloud.com/"}
+{"name": "DeepSeek", "category": "AI Model Provider", "description": "DeepSeek-R1 MIT-licensed reasoning model", "website": "https://github.com/deepseek-ai"}
+{"name": "Moonshot AI", "category": "AI Model Provider", "description": "Kimi K2 open-source MoE model", "website": "https://kimi-k2.com/"}
+{"name": "MiniMax", "category": "AI Model Provider", "description": "abab 6.5 MoE LLM series", "website": "https://www.minimax.io/"}
+{"name": "Hume", "category": "Voice AI", "description": "Octave LLM-powered TTS", "website": "https://www.hume.ai/"}
+{"name": "Papla", "category": "Voice AI", "description": "P1 TTS + streaming API", "website": "https://papla.media/"}
+{"name": "ElevenLabs", "category": "Voice AI", "description": "Advanced TTS and voice cloning", "website": "https://elevenlabs.io/"}
+{"name": "LangChain", "category": "AI Framework", "description": "Multi-agent orchestration framework", "website": "https://www.langchain.com/"}
+{"name": "LangGraph", "category": "AI Framework", "description": "State machine for complex workflows", "website": "https://www.langchain.com/langgraph"}
+{"name": "CrewAI", "category": "AI Framework", "description": "Role-based agent design", "website": "https://github.com/crewAIInc/crewAI"}
+{"name": "Microsoft", "category": "Tech Giant", "description": "AutoGen, Azure Speech, GitHub Copilot", "website": "https://github.com/microsoft"}
+{"name": "DSPy", "category": "AI Framework", "description": "Stanford conversational framework", "website": "https://github.com/stanfordnlp/dspy"}
+{"name": "Haystack", "category": "AI Framework", "description": "Search and NLP framework", "website": "https://github.com/deepset-ai/haystack"}
+{"name": "Pipecat", "category": "AI Framework", "description": "Realtime agent framework", "website": "https://github.com/pipecat-ai/pipecat"}
+{"name": "Task Master AI", "category": "AI Tools", "description": "Agent task planner", "website": "https://www.task-master.dev/"}
+{"name": "Cursor", "category": "Development Tools", "description": "AI-enhanced IDE", "website": "https://cursor.com/"}
+{"name": "Replit", "category": "Development Tools", "description": "Replit Agent coding assistant", "website": "https://replit.com/"}
+{"name": "GitHub", "category": "Development Tools", "description": "GitHub Copilot, version control", "website": "https://github.com/"}
+{"name": "Bolt", "category": "Development Tools", "description": "Web development platform", "website": "https://bolt.new/"}
+{"name": "Lovable", "category": "Development Tools", "description": "AI development platform", "website": "https://lovable.dev/"}
+{"name": "Cline", "category": "Development Tools", "description": "VSCode extension", "website": "https://github.com/cline/cline"}
+{"name": "Void Editor", "category": "Development Tools", "description": "AI-powered editor", "website": "https://voideditor.com/"}
+{"name": "RooCode", "category": "Development Tools", "description": "AI coding platform", "website": "https://roocode.com/"}
+{"name": "OpenRouter", "category": "Model Router", "description": "AI model marketplace", "website": "https://openrouter.ai/"}
+{"name": "Replicate", "category": "Model Router", "description": "Run AI with an API", "website": "https://replicate.com/"}
+{"name": "Fireworks AI", "category": "Model Router", "description": "Fast inference, function-calling", "website": "https://fireworks.ai/"}
+{"name": "Nebius", "category": "Infrastructure", "description": "AI Cloud GPU provider", "website": "https://nebius.com/"}
+{"name": "Groq", "category": "Infrastructure", "description": "LPU inference", "website": "https://groq.com/"}
+{"name": "Together AI", "category": "Infrastructure", "description": "Inference Engine v2", "website": "https://www.together.ai/"}
+{"name": "Runpod", "category": "Infrastructure", "description": "GPU cloud platform", "website": "https://www.runpod.io/"}
+{"name": "Modal", "category": "Infrastructure", "description": "Serverless cloud platform", "website": "https://modal.com/"}
+{"name": "Deepgram", "category": "Voice AI", "description": "Speech recognition API", "website": "https://deepgram.com/"}
+{"name": "Azure", "category": "Cloud Provider", "description": "Microsoft cloud services", "website": "https://azure.microsoft.com/"}
+{"name": "ChatTTS", "category": "Voice AI", "description": "Open source TTS", "website": "https://github.com/2noise/ChatTTS"}
+{"name": "kokoro-tts", "category": "Voice AI", "description": "Open weight TTS model", "website": "https://github.com/hexgrad/kokoro"}
+{"name": "Whisper", "category": "Voice AI", "description": "OpenAI speech recognition", "website": "https://openai.com/research/whisper"}
+{"name": "PromptFoo", "category": "AI Evaluation", "description": "Prompt testing framework", "website": "https://www.promptfoo.dev/"}
+{"name": "Weights & Biases", "category": "AI Evaluation", "description": "ML experiment tracking", "website": "https://wandb.ai/"}
+{"name": "MLflow", "category": "AI Evaluation", "description": "ML lifecycle management", "website": "https://mlflow.org/"}
+{"name": "HubSpot", "category": "CRM", "description": "Customer relationship management", "website": "https://www.hubspot.com/"}
+{"name": "PipeDrive", "category": "CRM", "description": "Sales CRM platform", "website": "https://www.pipedrive.com/"}
+{"name": "Zapier", "category": "Automation", "description": "Workflow automation", "website": "https://zapier.com/"}
+{"name": "Slack", "category": "Communication", "description": "Team communication platform", "website": "https://slack.com/"}
+{"name": "Discord", "category": "Communication", "description": "Voice and text communication", "website": "https://discord.com/"}

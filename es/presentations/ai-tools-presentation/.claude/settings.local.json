@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(npm run lint)",
+      "Bash(lsof:*)",
+      "Bash(timeout 10s npm run start:manager)",
+      "Bash(curl:*)"
+    ],
+    "deny": []
+  }
+}
